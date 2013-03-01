@@ -1,0 +1,5 @@
+TextWindow.ForegroundColor = "Red"
+TextWindow.Write("Input Name: ")
+name = TextWindow.Read()
+TextWindow.ForegroundColor = "Cyan"
+TextWindow.WriteLine("Hola " + name + " . Have a wonderful day!!")

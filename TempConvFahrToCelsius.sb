@@ -1,0 +1,4 @@
+TextWindow.Write("Enter temperature in Fahrenheit: ")
+f = TextWindow.ReadNumber()
+c = 5 * (f - 32) / 9
+TextWindow.WriteLine("Temperature in Celsius: " + c) 

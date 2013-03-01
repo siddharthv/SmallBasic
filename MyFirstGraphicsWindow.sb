@@ -1,0 +1,6 @@
+GraphicsWindow.BackgroundColor = "SteelBlue"
+GraphicsWindow.Title = "My First Graphics Window"
+GraphicsWindow.Width = 320
+GraphicsWindow.Height = 200
+GraphicsWindow.DrawBoundText(50,100,150,"ELCID")
+GraphicsWindow.Show()

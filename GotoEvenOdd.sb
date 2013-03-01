@@ -1,0 +1,10 @@
+Start:
+TextWindow.Write("Input Number: ")
+num = TextWindow.ReadNumber()
+
+If (Math.Remainder(num, 2) = 0) Then
+  TextWindow.WriteLine("Input Number is EVEN")
+Else
+  TextWindow.WriteLine("Input Number is ODD")
+EndIf
+Goto Start

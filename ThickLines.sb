@@ -1,0 +1,8 @@
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.Width = 200
+GraphicsWindow.Height = 160
+GraphicsWindow.PenColor = "SteelBlue"
+For i = 1 To 10
+  GraphicsWindow.PenWidth = i
+  GraphicsWindow.DrawLine(20, i * 15, 180, i * 15)
+endfor

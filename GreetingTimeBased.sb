@@ -1,0 +1,15 @@
+TextWindow.Write("Input Name: ")
+name = TextWindow.Read()
+
+If Clock.Hour < 12 Then
+  TextWindow.ForegroundColor = "Cyan"
+  TextWindow.WriteLine("Hello " + name + " Good Morning!!")
+EndIf
+
+If Clock.Hour > 12 Then
+  TextWindow.ForegroundColor = "Magenta"
+  TextWindow.WriteLine("Hello " + name + " Good Afternoon")
+EndIf
+
+TextWindow.ForegroundColor = "Cyan"
+TextWindow.WriteLine("Have a wonderful day!!")
